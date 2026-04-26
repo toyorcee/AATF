@@ -21,8 +21,8 @@ const About = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-[#28557E] mb-4">About AATF</h2>
-          <p className="text-gray-500 text-lg">Understanding our mission and vision for the artisan community</p>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#28557E] mb-4">About AATF</h2>
+          <p className="text-gray-500 text-sm sm:text-base md:text-lg">Understanding our mission and vision for the artisan community</p>
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -34,9 +34,9 @@ const About = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="space-y-8"
           >
-            <h3 className="text-3xl font-bold text-[#28557E]">Our Mission</h3>
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#28557E]">Our Mission</h3>
             
-            <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
+            <div className="space-y-6 text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed">
               <p>
                 To create a vibrant, inclusive community that recognizes, 
                 celebrates and support the vital contributions of artisans 
@@ -53,7 +53,7 @@ const About = () => {
 
             <ul className="space-y-4">
               {points.map((point, index) => (
-                <li key={index} className="flex items-center gap-3 text-gray-800 font-medium text-lg">
+                <li key={index} className="flex items-center gap-3 text-gray-800 font-medium text-sm sm:text-base md:text-lg">
                   <HiCheckCircle className="text-[#1A8628] flex-shrink-0" size={28} />
                   {point}
                 </li>

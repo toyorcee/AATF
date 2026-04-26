@@ -11,10 +11,9 @@ const Hero = () => {
           <motion.div 
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
-            style={{ width: '300px', height: '40px', borderRadius: '30px' }}
-            className="bg-white/20 backdrop-blur-sm flex items-center justify-center mb-6 border border-white/10"
+            className="w-full max-w-[280px] sm:max-w-[300px] h-10 bg-white/20 backdrop-blur-sm flex items-center justify-center mb-6 border border-white/10 rounded-full"
           >
-            <span className="text-white font-semibold text-xs tracking-wide">Welcome to AATF</span>
+            <span className="text-white font-semibold text-[10px] sm:text-xs tracking-wide">Welcome to AATF</span>
           </motion.div>
           
           {/* Main Title */}
@@ -45,35 +44,19 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="flex flex-wrap gap-4"
+            className="flex flex-col sm:flex-row gap-4 w-full"
           >
             <button 
-              style={{ 
-                width: '320px', 
-                height: '72px', 
-                borderRadius: '10px',
-                backgroundColor: '#D9A227',
-                color: '#0D3976'
-              }}
-              className="font-bold text-xl hover:brightness-110 transition-all duration-300 flex items-center justify-center gap-3 group"
+              className="w-full sm:w-[280px] md:w-[320px] h-14 sm:h-16 md:h-[72px] bg-[#D9A227] text-[#0D3976] rounded-[10px] font-bold text-base sm:text-lg md:text-xl hover:brightness-110 transition-all duration-300 flex items-center justify-center gap-3 group"
             >
               Join Our Community
-              <HiArrowRight size={28} className="group-hover:translate-x-2 transition-transform" />
+              <HiArrowRight size={24} className="group-hover:translate-x-2 transition-transform" />
             </button>
             
             <button 
-              style={{ 
-                width: '320px', 
-                height: '72px', 
-                borderRadius: '10px',
-                borderColor: '#FFFFFF',
-                borderWidth: '2px',
-                color: '#FFFFFF',
-                backgroundColor: 'transparent'
-              }}
-              className="font-bold text-xl hover:bg-white/10 transition-all duration-300 flex items-center justify-center gap-4"
+              className="w-full sm:w-[280px] md:w-[320px] h-14 sm:h-16 md:h-[72px] bg-transparent border-2 border-white text-white rounded-[10px] font-bold text-base sm:text-lg md:text-xl hover:bg-white/10 transition-all duration-300 flex items-center justify-center gap-4"
             >
-              <HiSearch size={28} />
+              <HiSearch size={24} />
               Verify Member
             </button>
           </motion.div>

@@ -39,8 +39,8 @@ const Navbar = () => {
           <Link to="/" className="flex items-center gap-3">
             <img src="/AATF-LOGO.png" alt="AATF Logo" className="h-16 w-auto" />
             <div className="flex flex-col leading-tight">
-              <span className="font-extrabold text-black text-lg md:text-xl uppercase tracking-tight">Abuja Artisans &</span>
-              <span className="font-extrabold text-black text-lg md:text-xl uppercase tracking-tight">Technical Forum</span>
+              <span className="font-extrabold text-black text-sm sm:text-base md:text-xl uppercase tracking-tight">Abuja Artisans &</span>
+              <span className="font-extrabold text-black text-sm sm:text-base md:text-xl uppercase tracking-tight">Technical Forum</span>
             </div>
           </Link>
 
@@ -92,7 +92,7 @@ const Navbar = () => {
                 }}
                 className={({ isActive }) => {
                   const active = link.to === '/gallery' ? isActive : isLinkActive(link.to);
-                  return `block px-3 py-4 text-base font-bold rounded-md transition-colors duration-200 ${
+                  return `block px-3 py-3 text-sm font-bold rounded-md transition-colors duration-200 ${
                     active ? 'text-accent bg-gray-50' : 'text-gray-900 hover:text-accent hover:bg-gray-50'
                   }`;
                 }}
@@ -100,6 +100,19 @@ const Navbar = () => {
                 {link.name}
               </NavLink>
             ))}
+
+            {/* Mobile Contact Info */}
+            <div className="pt-6 pb-2 px-3 border-t border-gray-100 mt-4">
+              <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-4">Contact Info</p>
+              <div className="space-y-3">
+                <a href="mailto:info@aatfabuja.org" className="block text-sm font-medium text-gray-600 hover:text-accent">
+                  info@aatfabuja.org
+                </a>
+                <p className="text-sm font-medium text-gray-600">
+                  Abuja, Nigeria
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       )}

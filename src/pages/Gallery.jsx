@@ -30,14 +30,12 @@ const Gallery = () => {
         {/* Page Header */}
         <div className="text-center mb-12">
           <p 
-            style={{ color: '#2370C7', fontWeight: 900, fontSize: '20px', lineHeight: '100%' }}
-            className="mb-1"
+            className="mb-1 text-[#2370C7] font-[900] text-base sm:text-lg lg:text-xl leading-none"
           >
             MEDIA
           </p>
           <h1 
-            style={{ fontWeight: 600, fontSize: '32px', lineHeight: '100%' }}
-            className="text-[#0D3976]"
+            className="text-[#0D3976] font-semibold text-2xl sm:text-3xl md:text-4xl leading-none"
           >
             Photo Gallery
           </h1>
@@ -49,7 +47,7 @@ const Gallery = () => {
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
-              className={`px-8 py-3 rounded-lg font-bold text-sm transition-all duration-300 border ${
+              className={`px-5 py-2 sm:px-8 sm:py-3 rounded-lg font-bold text-xs sm:text-sm transition-all duration-300 border ${
                 activeTab === tab 
                   ? 'bg-[#28557E] text-white border-[#28557E]' 
                   : 'bg-white text-gray-500 border-gray-200 hover:border-gray-400'
@@ -85,10 +83,9 @@ const Gallery = () => {
         {/* See More Button */}
         <div className="text-center">
           <button 
-            style={{ backgroundColor: '#D9A227', color: '#0D3976' }}
-            className="px-10 py-4 rounded-lg font-bold text-lg hover:brightness-110 transition-all flex items-center gap-2 mx-auto"
+            className="bg-accent text-primary px-8 py-3 sm:px-10 sm:py-4 rounded-lg font-bold text-base sm:text-lg hover:brightness-110 transition-all flex items-center gap-2 mx-auto"
           >
-            See More <span className="text-2xl">→</span>
+            See More <span className="text-xl sm:text-2xl">→</span>
           </button>
         </div>
       </div>

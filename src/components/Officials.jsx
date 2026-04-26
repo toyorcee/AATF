@@ -60,8 +60,8 @@ const Officials = () => {
           variants={fadeUp}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-[#0D3976] mb-4">Our Officials</h2>
-          <p className="text-gray-500 text-lg">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#0D3976] mb-4">Our Officials</h2>
+          <p className="text-gray-500 text-sm sm:text-base md:text-lg">
             The dedicated team driving AATF mission to empower artisansa and build Nigeria.
           </p>
         </motion.div>
@@ -121,7 +121,7 @@ const Officials = () => {
             viewport={{ once: true }}
             className="mt-12"
           >
-            <button className="bg-[#28557E] text-white px-10 py-4 rounded-lg font-bold text-lg hover:bg-[#1a3a57] hover:-translate-y-1 transition-all shadow-md active:scale-95">
+            <button className="bg-[#28557E] text-white px-8 py-3 sm:px-10 sm:py-4 rounded-lg font-bold text-base sm:text-lg hover:bg-[#1a3a57] hover:-translate-y-1 transition-all shadow-md active:scale-95">
               View All
             </button>
           </motion.div>
@@ -140,9 +140,9 @@ const OfficialCard = ({ official }) => (
         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
       />
     </div>
-    <div className="p-6">
-      <p style={{ color: '#1B7A3D' }} className="font-bold text-xs mb-2 tracking-wider uppercase">{official.role}</p>
-      <h3 className="text-xl font-bold text-black">{official.name}</h3>
+    <div className="p-5 sm:p-6">
+      <p style={{ color: '#1B7A3D' }} className="font-bold text-[10px] sm:text-xs mb-2 tracking-wider uppercase">{official.role}</p>
+      <h3 className="text-lg sm:text-xl font-bold text-black">{official.name}</h3>
     </div>
   </div>
 );

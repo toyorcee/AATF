@@ -38,13 +38,23 @@ const BackToTop = () => {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           onClick={scrollToTop}
-          className="fixed bottom-10 right-10 z-[60] bg-[#28557E] text-white p-4 rounded-full shadow-2xl flex items-center justify-center border-2 border-white/20 group"
+          className="fixed bottom-6 right-6 sm:bottom-10 sm:right-10 z-[60] bg-[#28557E] text-white p-3 sm:p-4 rounded-full shadow-2xl flex items-center justify-center border-2 border-white/20 group"
         >
           <motion.div
             animate={{ y: [0, -4, 0] }}
             transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
           >
-            <HiArrowUp size={24} />
+            <svg 
+              viewBox="0 0 24 24" 
+              fill="none" 
+              stroke="currentColor" 
+              strokeWidth="3.5" 
+              strokeLinecap="round" 
+              strokeLinejoin="round" 
+              className="w-5 h-5 sm:w-6 sm:h-6"
+            >
+              <path d="M12 19V5M5 12l7-7 7 7" />
+            </svg>
           </motion.div>
           
           {/* Tooltip on hover */}

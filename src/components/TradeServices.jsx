@@ -85,8 +85,8 @@ const TradeServices = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">Our Trade Services</h2>
-          <p className="text-white/80 text-lg max-w-3xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white mb-6">Our Trade Services</h2>
+          <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-3xl mx-auto">
             AATF brings together expertise across mutiple trades and technical specifications
           </p>
         </motion.div>
@@ -103,13 +103,13 @@ const TradeServices = () => {
             <motion.div 
               key={index} 
               variants={itemVariants}
-              className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group"
+              className="bg-white p-6 sm:p-8 rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group"
             >
               <div className="text-[#1A8628] mb-6 transition-transform duration-300 group-hover:scale-110">
                 {service.icon}
               </div>
-              <h3 className="text-2xl font-bold text-[#0D3976] mb-4">{service.title}</h3>
-              <p className="text-gray-500 leading-relaxed">
+              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-[#0D3976] mb-4">{service.title}</h3>
+              <p className="text-gray-500 text-sm sm:text-base leading-relaxed">
                 {service.description}
               </p>
             </motion.div>

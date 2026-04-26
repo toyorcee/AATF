@@ -54,8 +54,8 @@ const News = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-[#0D3976] mb-4">Latest News & Updates</h2>
-          <p className="text-gray-500 text-lg">Stay informed about AATF events, announcements and opportunities</p>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#0D3976] mb-4">Latest News & Updates</h2>
+          <p className="text-gray-500 text-sm sm:text-base md:text-lg">Stay informed about AATF events, announcements and opportunities</p>
         </motion.div>
 
         {/* News List */}
@@ -70,7 +70,7 @@ const News = () => {
             <motion.div 
               key={index} 
               variants={itemVariants}
-              className="border border-gray-200 rounded-xl p-8 hover:shadow-md transition-all group"
+              className="border border-gray-200 rounded-xl p-6 sm:p-8 hover:shadow-md transition-all group"
             >
               <div className="flex flex-wrap items-center gap-4 mb-6">
                 <div className="flex items-center gap-2 text-[#4F4F4FCC]">
@@ -85,11 +85,11 @@ const News = () => {
                 </span>
               </div>
 
-              <h3 className="text-2xl font-bold text-[#0D3976] mb-4 group-hover:text-accent transition-colors">
+              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-[#0D3976] mb-3 sm:mb-4 group-hover:text-accent transition-colors">
                 {news.title}
               </h3>
               
-              <p className="text-gray-600 leading-relaxed mb-6">
+              <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-6">
                 {news.description}
               </p>
 
@@ -108,7 +108,7 @@ const News = () => {
           transition={{ delay: 0.5 }}
           className="text-center mt-12"
         >
-          <button className="border-2 border-[#0D3976] text-[#0D3976] px-12 py-3 rounded-lg font-bold text-lg hover:bg-[#0D3976] hover:text-white transition-all">
+          <button className="border-2 border-[#0D3976] text-[#0D3976] px-8 py-2.5 sm:px-12 sm:py-3 rounded-lg font-bold text-base sm:text-lg hover:bg-[#0D3976] hover:text-white transition-all">
             View all News
           </button>
         </motion.div>
