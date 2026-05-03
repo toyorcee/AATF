@@ -15,7 +15,7 @@ const Footer = () => {
               </div>
               <div className="flex flex-col items-center sm:items-start">
                 <h2 className="text-2xl sm:text-xl font-bold leading-tight">AATF</h2>
-                <p style={{ color: '#E8E8E8' }} className="text-[10px] sm:text-xs uppercase tracking-widest sm:tracking-tighter">Abuja Artisans & Technical Forum</p>
+                <p style={{ color: '#E8E8E8' }} className="text-[10px] sm:text-xs uppercase tracking-widest sm:tracking-tighter">Abuja Artisans and Technicians Forum</p>
               </div>
             </div>
             <p style={{ color: '#E8E8E8' }} className="text-sm leading-relaxed max-w-xs mx-auto sm:mx-0">
@@ -68,8 +68,8 @@ const Footer = () => {
             </div>
             <div>
               <p className="text-sm font-bold mb-1">Email</p>
-              <a href="mailto:info@aatfabuja.org" style={{ color: '#E8E8E8' }} className="text-sm hover:text-white transition-colors">
-                info@aatfabuja.org
+              <a href="mailto:abujaartisansforum1@gmail.com" style={{ color: '#E8E8E8' }} className="text-sm hover:text-white transition-colors">
+                abujaartisansforum1@gmail.com
               </a>
             </div>
           </div>
@@ -80,7 +80,7 @@ const Footer = () => {
           style={{ color: '#E8E8E8', fontSize: '12px', fontWeight: 400, lineHeight: '100%' }}
           className="pt-8 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4"
         >
-          <p className="text-[10px] sm:text-xs">© 2026 AATF - Abuja Artisans & Technicians Forum. All rights reserved.</p>
+          <p className="text-[10px] sm:text-xs">© 2026 AATF - Abuja Artisans and Technicians Forum. All rights reserved.</p>
           <div className="flex flex-col sm:flex-row gap-2 sm:gap-6 text-center">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>

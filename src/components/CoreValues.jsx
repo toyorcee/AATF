@@ -6,7 +6,7 @@ const CoreValues = () => {
   const values = [
     {
       title: 'Excellence',
-      description: 'Commitment to superior craftmanship and technical qaulity',
+      description: 'Commitment to superior craftsmanship and technical quality',
       icon: <HiOutlineTrophy size={60} />,
     },
     {
@@ -21,7 +21,7 @@ const CoreValues = () => {
     },
     {
       title: 'Unity',
-      description: 'Fostering collaboration among memebers of the forum',
+      description: 'Fostering collaboration among members of the forum',
       icon: <HiOutlineUserGroup size={60} />,
     },
   ];
@@ -57,7 +57,7 @@ const CoreValues = () => {
           className="bg-[#F3F4F6] rounded-[30px] p-8 sm:p-12 md:p-20 shadow-sm"
         >
           <div className="text-center mb-16">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#28557E]">Our Core Value</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#28557E]">Our Core Values</h2>
           </div>
 
           <motion.div 

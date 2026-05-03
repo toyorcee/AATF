@@ -8,25 +8,25 @@ const News = () => {
       date: 'April 12, 2026',
       tag: 'Event',
       title: 'AATF Annual Skills Competition 2026',
-      description: 'Join us for our biggest annual event where artisans showcase their skllls and compete for recognition. Categories include electrical work, plumbing, capentry and more.'
+      description: 'Join us for our biggest annual event where artisans showcase their skills and compete for recognition. Categories include electrical work, plumbing, carpentry and more.'
     },
     {
       date: 'April 12, 2026',
       tag: 'Training',
       title: 'New Advanced Welding Certification Program',
-      description: 'Join us for our biggest annual event where artisans showcase their skllls and compete for recognition. Categories include electrical work, plumbing, capentry and more.'
+      description: 'Join us for our biggest annual event where artisans showcase their skills and compete for recognition. Categories include electrical work, plumbing, carpentry and more.'
     },
     {
       date: 'April 12, 2026',
       tag: 'Announcement',
       title: 'Member Benefits Updates - New Insurance Plan',
-      description: 'Join us for our biggest annual event where artisans showcase their skllls and compete for recognition. Categories include electrical work, plumbing, capentry and more.'
+      description: 'Join us for our biggest annual event where artisans showcase their skills and compete for recognition. Categories include electrical work, plumbing, carpentry and more.'
     },
     {
       date: 'April 12, 2026',
       tag: 'Event',
       title: 'Networking Mixer- Meet & Connect',
-      description: 'Join us for our biggest annual event where artisans showcase their skllls and compete for recognition. Categories include electrical work, plumbing, capentry and more.'
+      description: 'Join us for our biggest annual event where artisans showcase their skills and compete for recognition. Categories include electrical work, plumbing, carpentry and more.'
     }
   ];
 

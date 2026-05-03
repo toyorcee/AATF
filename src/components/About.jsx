@@ -4,7 +4,7 @@ import { HiCheckCircle } from 'react-icons/hi';
 
 const About = () => {
   const points = [
-    "Promote professional standards in craftmanship",
+    "Promote professional standards in craftsmanship",
     "Provide training and skill development programs",
     "Create networking and business opportunities",
     "Advocate for artisans and technicians"
@@ -39,15 +39,15 @@ const About = () => {
             <div className="space-y-6 text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed">
               <p>
                 To create a vibrant, inclusive community that recognizes, 
-                celebrates and support the vital contributions of artisans 
-                and technicians in Abuja and beyond. we aim tp provide 
+                celebrates and supports the vital contributions of artisans 
+                and technicians in Abuja and beyond. We aim to provide 
                 platforms for skill development, business networking, and 
                 professional growth.
               </p>
               <p>
                 AATF serves as a bridge connecting skilled professionals 
                 with opportunities, resources and a supportive community 
-                that values craftmanship and technical excellence.
+                that values craftsmanship and technical excellence.
               </p>
             </div>
 

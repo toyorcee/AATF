@@ -7,9 +7,10 @@ import {
   HiOutlinePaintBrush, 
   HiOutlineShieldCheck, 
   HiOutlineBolt, 
-  HiOutlineFire
+  HiOutlineFire,
+  HiOutlineScissors
 } from 'react-icons/hi2';
-import { FaHammer } from 'react-icons/fa6';
+import { FaHammer, FaCar, FaUtensils, FaUser, FaWrench, FaLifeRing } from 'react-icons/fa6';
 
 const TradeServices = () => {
   const services = [
@@ -24,7 +25,7 @@ const TradeServices = () => {
       icon: <HiOutlineWrench size={32} />,
     },
     {
-      title: 'Capentary & Joinery',
+      title: 'Carpentry & Joinery',
       description: 'Custom furniture, cabinetry, and woodwork with traditional and modern craftsmanship.',
       icon: <FaHammer size={28} />,
     },
@@ -52,6 +53,36 @@ const TradeServices = () => {
       title: 'Welding & Metal Work',
       description: 'Professional welding, metal fabrication and structural steel work.',
       icon: <HiOutlineFire size={32} />,
+    },
+    {
+      title: 'Auto Mechanics',
+      description: 'Professional diagnosis, repair and maintenance for all types of vehicles.',
+      icon: <FaCar size={32} />,
+    },
+    {
+      title: 'Fashion & Garment Design',
+      description: 'Expert tailoring, garment construction and modern fashion design services.',
+      icon: <HiOutlineScissors size={32} />,
+    },
+    {
+      title: 'Catering & Event Planning',
+      description: 'Professional catering services and comprehensive event planning for all occasions.',
+      icon: <FaUtensils size={32} />,
+    },
+    {
+      title: 'Auto Body Builder',
+      description: 'Expert panel beating, spray painting and structural repairs for vehicles.',
+      icon: <FaWrench size={32} />,
+    },
+    {
+      title: 'Vulcanizing Services',
+      description: 'Professional tire repairs, wheel balancing and alignment services.',
+      icon: <FaLifeRing size={32} />,
+    },
+    {
+      title: 'Unisex Hairstyling',
+      description: 'Modern hair cutting, styling and grooming services for all genders.',
+      icon: <FaUser size={32} />,
     },
   ];
 
@@ -87,7 +118,7 @@ const TradeServices = () => {
         >
           <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white mb-6">Our Trade Services</h2>
           <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-3xl mx-auto">
-            AATF brings together expertise across mutiple trades and technical specifications
+            AATF brings together expertise across multiple trades and technical specifications
           </p>
         </motion.div>
 

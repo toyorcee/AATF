@@ -3,7 +3,7 @@ import React from 'react';
 const Gallery = () => {
   const [activeTab, setActiveTab] = React.useState('All');
 
-  const tabs = ['All', 'EVENTS', 'PROJECTS', 'AWARDS', 'MEMBERS'];
+  const tabs = ['All', 'EVENTS', 'PROJECTS', 'AWARDS', 'MEMBERS', 'APPAREL'];
 
   const images = [
     { src: '/Gallery1.png', title: 'Electrical Workshop', category: 'PROJECTS' },
@@ -18,6 +18,7 @@ const Gallery = () => {
     { src: '/Gallery10.png', title: 'Industry Visit', category: 'PROJECTS' },
     { src: '/Gallery11.png', title: 'Tool Demonstration', category: 'EVENTS' },
     { src: '/Gallery12.png', title: 'Forum Launch', category: 'MEMBERS' },
+    { src: '/apparel.jpeg', title: 'AATF Official Apparel', category: 'APPAREL' },
   ];
 
   const filteredImages = activeTab === 'All' 

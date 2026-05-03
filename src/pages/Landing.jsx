@@ -6,6 +6,8 @@ import CoreValues from '../components/CoreValues';
 import TradeServices from '../components/TradeServices';
 import Officials from '../components/Officials';
 import News from '../components/News';
+import LegalDocs from '../components/LegalDocs';
+import Apparel from '../components/Apparel';
 
 const Landing = () => {
   return (
@@ -13,8 +15,10 @@ const Landing = () => {
       <Hero />
       <MemberSearch />
       <About />
+      <LegalDocs />
       <CoreValues />
       <TradeServices />
+      <Apparel />
       <Officials />
       <News />
     </>

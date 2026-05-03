@@ -27,7 +27,7 @@ const Navbar = () => {
 
   const isLinkActive = (to) => {
     if (to === '/') return location.pathname === '/' && !location.hash;
-    if (to.includes('#')) return location.hash === to.split('#')[1];
+    if (to.includes('#')) return location.hash === '#' + to.split('#')[1];
     return location.pathname === to;
   };
 
@@ -39,8 +39,8 @@ const Navbar = () => {
           <Link to="/" className="flex items-center gap-3">
             <img src="/AATF-LOGO.png" alt="AATF Logo" className="h-16 w-auto" />
             <div className="flex flex-col leading-tight">
-              <span className="font-extrabold text-black text-sm sm:text-base md:text-xl uppercase tracking-tight">Abuja Artisans &</span>
-              <span className="font-extrabold text-black text-sm sm:text-base md:text-xl uppercase tracking-tight">Technical Forum</span>
+              <span className="font-extrabold text-black text-sm sm:text-base md:text-xl uppercase tracking-tight">Abuja Artisans and</span>
+              <span className="font-extrabold text-black text-sm sm:text-base md:text-xl uppercase tracking-tight">Technicians Forum</span>
             </div>
           </Link>
 
@@ -105,8 +105,8 @@ const Navbar = () => {
             <div className="pt-6 pb-2 px-3 border-t border-gray-100 mt-4">
               <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-4">Contact Info</p>
               <div className="space-y-3">
-                <a href="mailto:info@aatfabuja.org" className="block text-sm font-medium text-gray-600 hover:text-accent">
-                  info@aatfabuja.org
+                <a href="mailto:abujaartisansforum1@gmail.com" className="block text-sm font-medium text-gray-600 hover:text-accent">
+                  abujaartisansforum1@gmail.com
                 </a>
                 <p className="text-sm font-medium text-gray-600">
                   Abuja, Nigeria

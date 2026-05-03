@@ -24,7 +24,7 @@ const Hero = () => {
             className="text-4xl md:text-6xl font-bold leading-tight mb-6"
           >
             Empowering Artisans <br />
-            & Technicinas
+            & Technicians
           </motion.h1>
           
           {/* Subtext */}
@@ -34,7 +34,7 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-base md:text-lg text-white/90 mb-10 max-w-2xl leading-relaxed"
           >
-            The Abuja Artisans & Technicians forum is a professional platform 
+            The Abuja Artisans and Technicians Forum is a professional platform 
             dedicated to connecting skilled craftspeople, promoting 
             excellence and advancing the technical industry in Abuja.
           </motion.p>

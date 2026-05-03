@@ -20,7 +20,7 @@ const MemberSearch = () => {
                 </div>
                 <input
                   type="text"
-                  placeholder="Search by name or specialty...."
+                  placeholder="Search by name or specialty..."
                   className="block w-full pl-12 pr-4 py-4 sm:py-5 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-secondary-1/20 focus:border-secondary-1 transition-all text-base sm:text-lg"
                 />
               </div>
@@ -35,6 +35,11 @@ const MemberSearch = () => {
                   <option>Plumber</option>
                   <option>Carpenter</option>
                   <option>Mechanic</option>
+                  <option>Fashion Designer</option>
+                  <option>Caterer</option>
+                  <option>Auto Body Builder</option>
+                  <option>Vulcanizer</option>
+                  <option>Hairstylist</option>
                 </select>
                 <div className="absolute inset-y-0 right-0 pr-4 flex items-center pointer-events-none">
                   <HiChevronDown className="h-6 w-6 text-gray-400" />
