@@ -12,7 +12,7 @@ const Navbar = () => {
     { name: 'Services', to: '/#services' },
     { name: 'Member Directory', to: '/#directory' },
     { name: 'Gallery', to: '/gallery' },
-    { name: 'News', to: '/#news' },
+    { name: 'News', to: '/blog' },
     { name: 'Contact', to: '/#contact' },
   ];
 

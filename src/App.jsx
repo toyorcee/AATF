@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
 import Landing from './pages/Landing'
 import Gallery from './pages/Gallery'
+import Blog from './pages/Blog'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import BackToTop from './components/BackToTop'
@@ -24,6 +25,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Landing />} />
             <Route path="/gallery" element={<Gallery />} />
+            <Route path="/blog" element={<Blog />} />
           </Routes>
         </main>
         <Footer />

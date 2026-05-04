@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import { HiOutlineCalendar, HiArrowNarrowRight } from 'react-icons/hi';
 
 const News = () => {
@@ -108,9 +109,11 @@ const News = () => {
           transition={{ delay: 0.5 }}
           className="text-center mt-12"
         >
-          <button className="border-2 border-[#0D3976] text-[#0D3976] px-8 py-2.5 sm:px-12 sm:py-3 rounded-lg font-bold text-base sm:text-lg hover:bg-[#0D3976] hover:text-white transition-all">
-            View all News
-          </button>
+          <Link to="/blog">
+            <button className="border-2 border-[#0D3976] text-[#0D3976] px-8 py-2.5 sm:px-12 sm:py-3 rounded-lg font-bold text-base sm:text-lg hover:bg-[#0D3976] hover:text-white transition-all">
+              View all News
+            </button>
+          </Link>
         </motion.div>
       </div>
     </section>
