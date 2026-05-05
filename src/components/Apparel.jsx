@@ -24,9 +24,12 @@ const Apparel = () => {
                Our gear is designed for comfort, durability, and a professional look on the job.
              </p>
              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-               <button className="bg-[#28557E] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#1a3a57] transition-all shadow-lg hover:-translate-y-1 active:scale-95">
+               <a 
+                 href="#contact"
+                 className="inline-block text-center bg-[#28557E] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#1a3a57] transition-all shadow-lg hover:-translate-y-1 active:scale-95 cursor-pointer"
+               >
                  Inquire for Orders
-               </button>
+               </a>
              </div>
           </motion.div>
           

@@ -196,9 +196,6 @@ const Blog = () => {
                   </svg>
                 </div>
               </div>
-              <div className="absolute top-6 left-6">
-                <span className="bg-[#1B7A3D] text-white text-[10px] font-black px-4 py-2 rounded-lg uppercase tracking-widest shadow-lg">Cinematic Feature</span>
-              </div>
             </div>
             <div className="lg:w-1/2 p-8 lg:p-12 flex flex-col justify-center bg-white relative">
               <div className="flex items-center gap-2 mb-4">
@@ -294,15 +291,32 @@ const Blog = () => {
             >
               <div className="relative z-10">
                 <h3 className="font-bold mb-2 text-lg">Need Assistance?</h3>
-                <p className="text-white/80 text-sm mb-4 leading-relaxed">Can't find a specific document or news item? Contact our media desk at abujaartisansforum1@gmail.com</p>
-                <motion.a 
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  href="mailto:abujaartisansforum1@gmail.com" 
-                  className="inline-block bg-[#1B7A3D] text-white px-6 py-2 rounded-lg font-bold text-sm shadow-md transition-colors cursor-pointer hover:bg-[#1B7A3D]/90"
-                >
-                  Contact Us
-                </motion.a>
+                <p className="text-white/80 text-sm mb-4 leading-relaxed">Can't find a specific document or news item? Contact our media desk at abujaartisansforum1@gmail.com or call us directly.</p>
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <motion.a 
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    href="mailto:abujaartisansforum1@gmail.com" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-[#1B7A3D] text-white px-6 py-2 rounded-lg font-bold text-sm shadow-md transition-colors cursor-pointer hover:bg-[#1B7A3D]/90 text-center"
+                  >
+                    Email Us
+                  </motion.a>
+                  <motion.a 
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    href="tel:08109053304" 
+                    className="inline-block bg-white/10 text-white px-6 py-2 rounded-lg font-bold text-sm shadow-md transition-colors cursor-pointer hover:bg-white/20 text-center border border-white/20"
+                  >
+                    Call Us
+                  </motion.a>
+                </div>
+                <div className="mt-4 flex flex-wrap gap-x-4 gap-y-1 text-xs text-white/70">
+                  <a href="tel:08109053304" className="hover:text-white transition-colors cursor-pointer">0810 905 3304</a>
+                  <a href="tel:09138080220" className="hover:text-white transition-colors cursor-pointer">0913 808 0220</a>
+                  <a href="tel:08065371747" className="hover:text-white transition-colors cursor-pointer">0806 537 1747</a>
+                </div>
               </div>
               <motion.div 
                 animate={{ 

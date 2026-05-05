@@ -9,7 +9,7 @@ const Officials = () => {
       image: '/bm-2.jpeg'
     },
     {
-      name: 'COMRADE STEPHEN KINGSLEY ADILE G',
+      name: 'COMRADE KINGSLEY ADILE',
       role: 'SECRETARY AATF',
       image: '/exco6.jpeg'
     },
@@ -19,13 +19,13 @@ const Officials = () => {
       image: '/bm-4.jpeg'
     },
     {
-      name: 'COMRADE UBRIHAM BOLARIN AWEDA',
+      name: 'COMRADE IBRAHIM BOLARINWA AWEDA',
       role: 'BOT MEMBER, FINANCIAL SECRETARY',
       image: '/bm-3.jpeg'
     },
     {
-      name: 'ASSISTANT GENERAL SECRETARY',
-      role: 'EXECUTIVE OFFICE',
+      name: 'COMRADE JOHN JOSEPH',
+      role: 'ASSISTANT GENERAL SECRETARY',
       image: '/AGS.jpeg'
     },
     {
@@ -52,6 +52,11 @@ const Officials = () => {
       name: 'COMRADE LAMPY BELLO',
       role: 'ORGANIZING SECRETARY AATF',
       image: '/Bello.jpeg'
+    },
+    {
+      name: 'COMRADE GLORY ECHICHE',
+      role: 'MEDIA PUBLICITY OFFICER',
+      image: '/Glory.jpeg'
     }
   ];
 

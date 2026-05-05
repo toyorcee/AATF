@@ -105,10 +105,20 @@ const Navbar = () => {
             <div className="pt-6 pb-2 px-3 border-t border-gray-100 mt-4">
               <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-4">Contact Info</p>
               <div className="space-y-3">
-                <a href="mailto:abujaartisansforum1@gmail.com" className="block text-sm font-medium text-gray-600 hover:text-accent">
+                <a 
+                  href="mailto:abujaartisansforum1@gmail.com" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block text-sm font-medium text-gray-600 hover:text-accent cursor-pointer"
+                >
                   abujaartisansforum1@gmail.com
                 </a>
-                <p className="text-sm font-medium text-gray-600">
+                <div className="flex flex-col gap-1">
+                  <a href="tel:08109053304" className="text-sm font-medium text-gray-600 hover:text-accent cursor-pointer">0810 905 3304</a>
+                  <a href="tel:09138080220" className="text-sm font-medium text-gray-600 hover:text-accent cursor-pointer">0913 808 0220</a>
+                  <a href="tel:08065371747" className="text-sm font-medium text-gray-600 hover:text-accent cursor-pointer">0806 537 1747</a>
+                </div>
+                <p className="text-sm font-medium text-gray-600 pt-2">
                   Abuja, Nigeria
                 </p>
               </div>

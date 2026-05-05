@@ -17,7 +17,7 @@ const BoardMembers = () => {
     },
     {
       id: 3,
-      name: 'COMRADE IBRAHIM AWEDA BOLARINWA',
+      name: 'COMRADE IBRAHIM BOLARINWA AWEDA',
       role: 'BOT MEMBER/ FINANCIAL SECRETARY',
       image: '/bm-3.jpeg'
     },
@@ -29,8 +29,8 @@ const BoardMembers = () => {
     },
     {
       id: 5,
-      name: 'COMRADE BABATUNDE YUSUF',
-      role: 'GIFT MEMBER/BOT',
+      name: 'COMRADE BABATUNDE YUSUF GIFT',
+      role: 'BOT MEMBER',
       image: '/bm-5.jpeg'
     }
   ];

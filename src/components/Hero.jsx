@@ -5,17 +5,32 @@ import { HiArrowRight, HiSearch } from 'react-icons/hi';
 const Hero = () => {
   const [currentBg, setCurrentBg] = useState(0);
   const bgImages = [
-    '/Gallery1.png',
-    '/Gallery4.png',
-    '/Gallery10.png',
-    '/Gallery12.png',
-    '/Gallery17.png'
+    '/0d09a6e6-5ab3-47a6-864e-ae0fe7db15b8.jfif',
+    '/0d653409-24dd-47b2-89fd-a13345b0b5a1.jfif',
+    '/0e1a5eb2-4e08-4463-abb8-fd02e76d404f.jfif',
+    '/10584a59-fc5b-423d-ba8c-7e70470ec776.jfif',
+    '/1116b271-ba44-4e9c-b1a2-5680a02e53d5.jfif',
+    '/172b6ba5-e3bd-4398-b394-2f612bdd1ea8.jfif',
+    '/17da4eab-5f3e-429c-bac5-c90d50f542bf.jfif',
+    '/19063b05-4b0a-422b-9d19-58b858f51411.jfif',
+    '/19a51750-bf49-4fd8-83f8-437e35c5bfa0.jfif',
+    '/1a36985f-c618-4284-8c21-1aaef670e3b0.jfif',
+    '/1b95fb0c-37c3-4f4c-a286-c52ce16836d6.jfif',
+    '/1b9f3d9f-a49f-4084-aad4-dba01078cad6.jfif',
+    '/1e545a8b-fe17-4f47-98f9-0cd4b6a90479.jfif',
+    '/1f1d0266-73af-4b6c-9757-65de4bef20de.jfif',
+    '/1f8e985e-82c8-4d38-aa28-bb2338fba1d5.jfif',
+    '/203acf8d-d3dd-4cfb-b748-ddaf9ed4742c.jfif',
+    '/205a6611-d5c4-484e-bbdb-c994ee0e52aa.jfif',
+    '/22a21341-d15c-4db6-a5e9-35d77f6349b7.jfif',
+    '/252da537-ca1c-4c9c-a8b7-5170ecabc9ba.jfif',
+    '/2548f7fa-f9db-48c1-bb9a-ca6085e67684.jfif'
   ];
 
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentBg((prev) => (prev + 1) % bgImages.length);
-    }, 6000);
+    }, 5000); 
     return () => clearInterval(timer);
   }, []);
 
@@ -27,14 +42,17 @@ const Hero = () => {
           <motion.div
             key={currentBg}
             initial={{ opacity: 0 }}
-            animate={{ opacity: 0.5 }}
+            animate={{ opacity: 0.6 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 3, ease: "linear" }}
+            transition={{ 
+              duration: 2, // Smooth 2s crossfade
+              ease: "easeInOut" 
+            }}
             className="absolute inset-0 z-0"
           >
             <img 
               src={bgImages[currentBg]} 
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover scale-105" // Slight scale for motion
               alt="Artisan Background"
             />
           </motion.div>

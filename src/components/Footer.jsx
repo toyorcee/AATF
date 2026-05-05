@@ -68,9 +68,23 @@ const Footer = () => {
             </div>
             <div>
               <p className="text-sm font-bold mb-1">Email</p>
-              <a href="mailto:abujaartisansforum1@gmail.com" style={{ color: '#E8E8E8' }} className="text-sm hover:text-white transition-colors">
+              <a 
+                href="mailto:abujaartisansforum1@gmail.com" 
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: '#E8E8E8' }} 
+                className="text-sm hover:text-white transition-colors cursor-pointer"
+              >
                 abujaartisansforum1@gmail.com
               </a>
+            </div>
+            <div className="mt-4">
+              <p className="text-sm font-bold mb-1">Phone</p>
+              <div style={{ color: '#E8E8E8' }} className="flex flex-col gap-1">
+                <a href="tel:08109053304" className="text-sm hover:text-white transition-colors cursor-pointer">0810 905 3304</a>
+                <a href="tel:09138080220" className="text-sm hover:text-white transition-colors cursor-pointer">0913 808 0220</a>
+                <a href="tel:08065371747" className="text-sm hover:text-white transition-colors cursor-pointer">0806 537 1747</a>
+              </div>
             </div>
           </div>
         </div>
