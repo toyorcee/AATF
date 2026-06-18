@@ -51,7 +51,12 @@ const Officials = () => {
     {
       name: 'COMRADE LAMPY BELLO',
       role: 'ORGANIZING SECRETARY AATF',
-      image: '/Bello.jpeg'
+      skills: [
+        'SOLAR INSTALLATION TECHNICIAN',
+        'PHONE & COMPUTER TECHNICIAN',
+        'SATELLITE & CCTV INSTALLATION TECHNICIAN'
+      ],
+      image: '/comr-lamptey.jpeg'
     },
     {
       name: 'COMRADE GLORY ECHICHE',
@@ -146,6 +151,15 @@ const Officials = () => {
                 >
                   <p className="text-[#1B7A3D] font-black text-[10px] uppercase tracking-[0.2em] mb-2">{exco.role}</p>
                   <h3 className="text-[#0D3976] font-black text-lg leading-tight uppercase group-hover:text-[#1B7A3D] transition-colors">{exco.name}</h3>
+                  {exco.skills && (
+                    <div className="mt-3 flex flex-wrap gap-1">
+                      {exco.skills.map((skill, i) => (
+                        <span key={i} className="bg-[#1B7A3D]/10 text-[#1B7A3D] text-[8px] font-bold px-2 py-1 rounded-full uppercase tracking-wider">
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
+                  )}
                 </motion.div>
               </div>
 
