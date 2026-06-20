@@ -8,7 +8,10 @@ import {
   HiOutlineShieldCheck, 
   HiOutlineBolt, 
   HiOutlineFire,
-  HiOutlineScissors
+  HiOutlineScissors,
+  HiOutlineSun,
+  HiOutlineDevicePhoneMobile,
+  HiOutlineVideoCamera
 } from 'react-icons/hi2';
 import { FaHammer, FaCar, FaUtensils, FaUser, FaWrench, FaLifeRing } from 'react-icons/fa6';
 
@@ -83,6 +86,21 @@ const TradeServices = () => {
       title: 'Unisex Hairstyling',
       description: 'Modern hair cutting, styling and grooming services for all genders.',
       icon: <FaUser size={32} />,
+    },
+    {
+      title: 'Solar Installation Services',
+      description: 'Expert installation and maintenance of solar energy systems and panels.',
+      icon: <HiOutlineSun size={32} />,
+    },
+    {
+      title: 'Phone & Computer Repairs',
+      description: 'Professional troubleshooting, repair and maintenance of phones and computers.',
+      icon: <HiOutlineDevicePhoneMobile size={32} />,
+    },
+    {
+      title: 'Satellite & CCTV Installation',
+      description: 'Reliable installation of satellite dishes and security camera systems.',
+      icon: <HiOutlineVideoCamera size={32} />,
     },
   ];
 

@@ -51,11 +51,6 @@ const Officials = () => {
     {
       name: 'COMRADE LAMPY BELLO',
       role: 'ORGANIZING SECRETARY AATF',
-      skills: [
-        'SOLAR INSTALLATION TECHNICIAN',
-        'PHONE & COMPUTER TECHNICIAN',
-        'SATELLITE & CCTV INSTALLATION TECHNICIAN'
-      ],
       image: '/comr-lamptey.jpeg'
     },
     {
